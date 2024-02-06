@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We(U)BuildIt</title>
+</head>
+
+<body>
+    <center>
+        <h1>We(U)BuildIt</h1></center>
+    <center>
+        <h3>An online site for builing customised PC - Laptops</h3></center>
+    <form id="productForm">
+        <!-- Processor -->
+        <label for="processor">Select Processor:</label>
+        <select id="processor" name="processor">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="ryzen3600">AMD Ryzen 5 3600</option>
+            <option value="i510400">Intel Core i5-10400</option>
+            <option value="ryzen5900x">AMD Ryzen 9 5900X</option>
+            <option value="i910900k">Intel Core i9-10900K</option>
+        </select>
+        <br>
+        <br>
+        <!-- Graphics Card -->
+        <label for="graphicsCard">Select Graphics Card:</label>
+        <select id="graphicsCard" name="graphicsCard">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="gtx1650">NVIDIA GTX 1650 Super</option>
+            <option value="rx5500xt">AMD Radeon RX 5500 XT</option>
+            <option value="rtx3080">NVIDIA RTX 3080</option>
+            <option value="rx6900xt">AMD Radeon RX 6900 XT</option>
+        </select>
+        <br>
+        <br>
+        <!-- Motherboard -->
+        <label for="motherboard">Select Motherboard:</label>
+        <select id="motherboard" name="motherboard">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="b450">MSI B450 Tomahawk Max</option>
+            <option value="b460">ASUS Prime B460M-A</option>
+            <option value="x570">ASUS ROG Strix X570-E Gaming</option>
+            <option value="b550">MSI MPG B550 Gaming Edge WiFi</option>
+        </select>
+        <br>
+        <br>
+        <!-- RAM -->
+        <label for="ram">Select RAM:</label>
+        <select id="ram" name="ram">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="ram1">Corsair Vengeance LPX 16GB</option>
+            <option value="ram2">Crucial Ballistix 16GB</option>
+            <option value="ram3">G.Skill Ripjaws V Series 32GB</option>
+            <option value="ram4">Corsair Dominator Platinum RGB 32GB</option>
+        </select>
+        <br>
+        <br>
+        <!-- Storage (SSD) -->
+        <label for="ssd">Select SSD:</label>
+        <select id="ssd" name="ssd">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="ssd1">Kingston A2000 NVMe PCIe M.2 500GB</option>
+            <option value="ssd2">Crucial MX500 500GB SATA III</option>
+            <option value="ssd3">Samsung 970 EVO Plus NVMe M.2 1TB</option>
+            <option value="ssd4">WD Black SN750 NVMe M.2 1TB</option>
+        </select>
+        <br>
+        <br>
+        <!-- Storage (HDD) -->
+        <label for="hdd">Select HDD:</label>
+        <select id="hdd" name="hdd">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="hdd1">Seagate Barracuda 2TB 7200 RPM</option>
+            <option value="hdd2">WD Blue 1TB 7200 RPM</option>
+            <option value="hdd3">Seagate FireCuda 4TB SSHD</option>
+            <option value="hdd4">WD Black 4TB 7200 RPM</option>
+        </select>
+        <br>
+        <br>
+        <!-- Power Supply (PSU) -->
+        <label for="psu">Select Power Supply:</label>
+        <select id="psu" name="psu">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="psu1">EVGA 600 W1, 80+ WHITE 600W</option>
+            <option value="psu2">Corsair CV550, 80 PLUS BRONZE Certified, 550 Watt</option>
+            <option value="psu3">Seasonic Focus GX-850, 850W 80+ Gold</option>
+            <option value="psu4">EVGA SuperNOVA 850 G5, 80 Plus Gold 850W</option>
+        </select>
+        <br>
+        <br>
+        <!-- PC Case -->
+        <label for="pcCase">Select PC Case:</label>
+        <select id="pcCase" name="pcCase">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="case1">NZXT H510</option>
+            <option value="case2">Cooler Master MasterBox Q300L</option>
+            <option value="case3">Fractal Design Meshify C</option>
+            <option value="case4">NZXT H710i</option>
+        </select>
+        <br>
+        <br>
+        <!-- CPU Cooler -->
+        <label for="cpuCooler">Select CPU Cooler:</label>
+        <select id="cpuCooler" name="cpuCooler">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="cooler1">Cooler Master Hyper 212 RGB Black Edition</option>
+            <option value="cooler2">DEEPCOOL GAMMAXX 400 V2</option>
+            <option value="cooler3">NZXT Kraken X63</option>
+            <option value="cooler4">Noctua NH-D15</option>
+        </select>
+        <br>
+        <br>
+        <!-- Additional Cooling (Case Fans) -->
+        <label for="caseFans">Select Case Fans:</label>
+        <select id="caseFans" name="caseFans">
+            <option value="nil">
+                <--Select your choice-->
+            </option>
+            <option value="fans1">ARCTIC F12 PWM PST</option>
+            <option value="fans2">Cooler Master SickleFlow 120 V2</option>
+            <option value="fans3">Corsair LL120 RGB</option>
+            <option value="fans4">Noctua NF-A12x25 PWM</option>
+        </select>
+        <br>
+        <br>
+        <!-- Additional Specifications -->
+        <label for="additionalSpecs">Additional Specifications:</label>
+        <textarea id="additionalSpecs" name="additionalSpecs" rows="4" cols="50" placeholder="Enter additional specifications here..."></textarea>
+        <br>
+        <br>
+        <center>
+            <button type="button" onclick="generateBill()">Generate Bill</button>
+        </center>
+    </form>
+
+    <div id="billResult"></div>
+
+    <script>
+        function generateBill() {
+            var processor = document.getElementById("processor").value;
+            var graphicsCard = document.getElementById("graphicsCard").value;
+            var motherboard = document.getElementById("motherboard").value;
+            var ram = document.getElementById("ram").value;
+            var ssd = document.getElementById("ssd").value;
+            var hdd = document.getElementById("hdd").value;
+            var psu = document.getElementById("psu").value;
+            var pcCase = document.getElementById("pcCase").value;
+            var cpuCooler = document.getElementById("cpuCooler").value;
+            var caseFans = document.getElementById("caseFans").value;
+            var additionalSpecs = document.getElementById("additionalSpecs").value;
+
+            // Define rates for each component
+            var rates = {
+                'ryzen3600': 18000, 'i510400': 18000, 'ryzen5900x': 45000, 'i910900k': 50000,
+                'gtx1650': 18000, 'rx5500xt': 18000, 'rtx3080': 80000, 'rx6900xt': 100000,
+                'b450': 10000, 'b460': 10000, 'x570': 25000, 'b550': 18000,
+                'ram1': 8000, 'ram2': 7000, 'ram3': 18000, 'ram4': 20000,
+                'ssd1': 7000, 'ssd2': 6000, 'ssd3': 18000, 'ssd4': 16000,
+                'hdd1': 7000, 'hdd2': 4000, 'hdd3': 11000, 'hdd4': 10000,
+                'psu1': 4000, 'psu2': 5000, 'psu3': 12000, 'psu4': 11000,
+                'case1': 7000, 'case2': 5000, 'case3': 10000, 'case4': 15000,
+                'cooler1': 4000, 'cooler2': 3500, 'cooler3': 11000, 'cooler4': 10000,
+                'fans1': 1500, 'fans2': 1800, 'fans3': 3500, 'fans4': 2500,'nil':0
+            };
+
+            // Calculate total price based on selected components
+            var totalPrice = rates[processor] + rates[graphicsCard] + rates[motherboard] + rates[ram] +
+                rates[ssd] + rates[hdd] + rates[psu] + rates[pcCase] + rates[cpuCooler] + rates[caseFans];
+
+            // Display the bill
+            var bill = "Processor: " + processor + " - ₹" + rates[processor] + "<br><br>";
+            bill += "Graphics Card: " + graphicsCard + " - ₹" + rates[graphicsCard] + "<br><br>";
+            bill += "Motherboard: " + motherboard + " - ₹" + rates[motherboard] + "<br><br>";
+            bill += "RAM: " + ram + " - ₹" + rates[ram] + "<br><br>";
+            bill += "SSD: " + ssd + " - ₹" + rates[ssd] + "<br><br>";
+            bill += "HDD: " + hdd + " - ₹" + rates[hdd] + "<br><br>";
+            bill += "Power Supply: " + psu + " - ₹" + rates[psu] + "<br><br>";
+            bill += "PC Case: " + pcCase + " - ₹" + rates[pcCase] + "<br><br>";
+            bill += "CPU Cooler: " + cpuCooler + " - ₹" + rates[cpuCooler] + "<br><br>";
+            bill += "Case Fans: " + caseFans + " - ₹" + rates[caseFans] + "<br><br>";
+            bill += "Additional Specifications: " + additionalSpecs + "<br><br>";
+            bill += "<strong>Total Price: ₹" + totalPrice + "</strong>"; 
+
+            document.getElementById("billResult").innerHTML = bill;
+        }
+    </script>
+
+</body>
+
+</html>

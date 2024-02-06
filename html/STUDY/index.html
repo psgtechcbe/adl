@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body {
+    counter-reset: section;
+    }
+    h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS Counters</h1>
+    <h2>Option 1</h2>
+    <h2>Option 2</h2>
+    <h2>Option 3</h2>
+    <h2>Option 4</h2>
+    <h2>Option 5</h2>
+</body>
+</html>
