@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We(U)BuildIt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #d7c0ea;">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#bodydesign.html">Home</a></li>
+            <li><a href="#productSection">Products</a></li>
+            <li><a href="html2.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="bodydesign">
+        <br><br><br><br>
+        <br><br><br><br>
+        <left>
+            <p>We(U)BuildIt</p>
+        </left>
+        <left>
+        <p2>An online site for building customized PC - Laptops</p2>
+        </left>       
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
+    <script>
+        VANTA.GLOBE({
+            el: "#bodydesign",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xfffb,
+            color2: 0xf70070,
+            backgroundColor: 0x210029
+            })
+    </script>
+    <br><br>
+    <p3>
+    <!-- Product Section -->
+    <section id="productSection">
+        <h1>Build Your Custom PC - Laptop</h1>
+        <p3>
+            <form id="productForm">
+            <!-- Processor -->
+            <fieldset style="background-color: #cae5ea ">
+                <legend><h2>Select Processor:</h2></legend>
+                <label>
+                    <input type="radio" name="processor" value="ryzen3600" title="AMD Ryzen 5 3600">
+                    <img src="img/processors/3600.png" height="250" width="250" title="AMD Ryzen 5 3600 --- Desktop Processor 6 Cores up to 4.2 GHz 35MB Cache Socket AM4">
+                </label>
+                <label>
+                    <input type="radio" name="processor" value="i510400" title="Intel Core i5-10400">
+                    <img src="img/processors/10400.png" height="250" width="250" title="Intel Core i5-10400 --- 10400 Processor (12M Cache, up to 4.30 GHz) BGA 437 Socket">
+                </label>
+                <label>
+                    <input type="radio" name="processor" value="ryzen5900x" title="AMD Ryzen 9 5900X">
+                    <img src="img/processors/5900x.png" height="250" width="250" title="AMD Ryzen 9 5900X ---  Desktop Processor 12 Cores 24 Threads 70 MB Cache 3.7 GHz up to 4.8 GHz Socket AM4 500 Series chipset">
+                </label>
+                <label>
+                    <input type="radio" name="processor" value="i910900k" title="Intel Core i9-10900K">
+                    <img src="img/processors/10900k.png" height="250" width="250" title="Intel Core i9-10900K ---  Ten Core Desktop Processor Up to 5.3 GHz Comet Lake - OEM Tray Version">
+                </label>
+                <label>
+                    <input type="radio" name="processor" value="ryzen7900x" title="AMD Ryzen 9 7900X">
+                    <img src="img/processors/7900x.png" height="250" width="250" title="AMD Ryzen 9 7900X --- Desktop Processor 12 cores 24 Threads 76 MB Cache 4.7 GHz Up to 5.6 GHz Socket AM5, 600 Series Chipset ">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Graphics Card -->
+            <fieldset style="background-color: #eae6ca">
+                <legend><h2>Select Graphics Card:</h2></legend>
+                <label>
+                    <input type="radio" name="graphicsCard" value="rtx4090" title="Nvidia GeForce RTX 4090">
+                    <img src="img/gcs/4090.png" height="250" width="250" title="Nvidia GeForce RTX 4090 :
+                    NVIDIA Ada Lovelace Streaming Multiprocessors:
+                    Up to 2x performance and power efficiency
+                    4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering
+                    3rd Generation RT Cores: Up to 2X ray tracing performance
+                    Powered by GeForce RTX® 4090
+                    Integrated with 24GB GDDR6X 384-bit memory interface
+                    WINDFORCE cooling system
+                    RGB Fusion
+                    Dual BIOS
+                    Protection metal back plate
+                    Anti-sag bracket
+                    4 Years Warranty (Online registration required) ">
+                </label>
+                <label>
+                    <input type="radio" name="graphicsCard" value="rtx4070ti" title="Nvidia GeForce RTX 4070 Ti">
+                    <img src="img/gcs/4070.png" height="250" width="250" title="Nvidia GeForce RTX 4070 Ti :
+                    Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing
+                    4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering
+                    3rd Generation RT Cores: Up to 2X ray tracing performance
+                    Powered by GeForce RTX™ 4070 Ti
+                    Integrated with 12GB GDDR6X 192bit memory interface
+                    WINDFORCE Cooling System
+                    Protection metal back plate
+                    CORE CLOCK 2625 MHz (Reference Card: 2610 MHz) ">
+                </label>
+                <label>
+                    <input type="radio" name="graphicsCard" value="7600xt" title="AMD Radeon RX 7600 XT">
+                    <img src="img/gcs/7600xt.png" height="250" width="250" title="AMD Radeon RX 7600 XT:
+                    GPU: Boost Clock: Up to 2755 MHz
+                    GPU: Game Clock: Up to 2355 MHz
+                    Memory: 8GB/128 bit DDR6. 18 Gbps Effective
+                    Stream Processors: 2048
+                    RDNA™ 3 Architecture
+                    Ray Accelerator: 32 ">
+                </label>
+                <label>
+                    <input type="radio" name="graphicsCard" value="7800xt" title="AMD Radeon RX 7800 XT">
+                    <img src="img/gcs/7800.png" height="250" width="250" title="AMD Radeon RX 7800 XT :
+                    GPU: Boost Clock: Up to 2565 MHz
+                    GPU: Game Clock: Up to 2254 MHz
+                    Memory: 16GB/256 bit DDR6. 19.5 Gbps Effective
+                    Stream Processors: 3840
+                    RDNA™ 3 Architecture
+                    Ray Accelerator: 60">
+                </label>
+                <label>
+                    <input type="radio" name="graphicsCard" value="6600xt" title="AMD Radeon RX 6600 XT">
+                    <img src="img/gcs/6600xt.png" height="250" width="250" title="AMD Radeon RX 6600 XT :
+                    128-bit 8GB GDDR6 
+                    DP/HDMI 
+                    Dual Torx Fans 
+                    FreeSync DirectX 12 
+                    VR Ready 
+                    OC Graphics Card (RX 6600 XT MECH 2X 8G OC)">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Motherboard -->
+            <fieldset style="background-color: #cae5ea ">
+                <legend><h2>Select Motherboard:</h2></legend>
+                <label>
+                    <input type="radio" name="motherboard" value="z790" title="Gigabyte Z790 Aorus Xtreme">
+                    <img src="img/mb/z790.png" height="250" width="250" title="Gigabyte Z790 Aorus Xtreme :
+                    Socket: LGA 1700
+                    Chipset: Intel Z790
+                    Form Factor: E-ATX
+                    Voltage Regulator: 23 Phases
+                    PCIe x16: (1) v5.0, (2) v3.0 (x4, x1)
+                    USB Ports: (2) Thunderbolt 4 Type-C (40 Gbps) 
+                    (10) USB 3.2 Gen 2 (10 Gbps)
+                    Warranty: 3 years">
+                </label>
+                <label>
+                    <input type="radio" name="motherboard" value="b760" title="ASRock B760M Steel Legend Wi-Fi">
+                    <img src="img/mb/b760.png" height="250" width="250" title="ASRock B760M Steel Legend Wi-Fi :
+                    Socket: LGA 1700
+                    Chipset: Intel B760
+                    Form Factor: Micro ATX
+                    Voltage Regulator: 14 Phase (12x 50A SPS MOSFETs for Vcore)
+                    PCIe x16: (1) v5.0
+                    USB Ports: (1) USB 3.2 Gen 2x2 (20 Gbps) Type-C, 
+                    (1) USB 3.2 Gen 2 (10 Gbps), 
+                    (4) USB 3.2 Gen 1 (10 Gbps), 
+                    (2) USB 2.0 (480 Mbps)
+                    Warranty: 3 years">
+                </label>
+                <label>
+                    <input type="radio" name="motherboard" value="b550" title="Asus ROG Strix B550-F Gaming Wi-Fi">
+                    <img src="img/mb/b550.png" height="250" width="250" title="Asus ROG Strix B550-F Gaming Wi-Fi:
+                    Socket: AM4
+                    Chipset: AMD B550
+                    Form Factor: ATX
+                    Voltage Regulator: 12+2 phases
+                    PCIe x16: (1) v4.0 (x16), (1) v3.0 (x4)
+                    USB Ports: (2) USB 3.2 Gen 2 (10 Gbps), 
+                    (4) USB 3.2 Gen 1 (5 Gbps), (2) USB 2.0
+                    Warranty: 3 years">
+                </label>
+                <label>
+                    <input type="radio" name="motherboard" value="b660" title="MSI MAG B660M Mortar WIFI DDR4">
+                    <img src="img/mb/b660.png" height="250" width="250" title="MSI MAG B660M Mortar WIFI DDR4 :
+                    Socket: LGA 1700
+                    Chipset: Intel B660
+                    Form Factor: mATX
+                    Voltage Regulator: 14 Phase (12+1+1, 12 60A MOSFETs for Vcore)
+                    PCIe x16: (1) v. 4.0 (x16), (1) v. 3.0 (x4)
+                    USB Ports: (1) USB 3.2 Gen 2x2 Type-C port (20 Gbps), 
+                    (3) USB 3.2 Gen 2 (10 Gbps), (4) USB 2.0 (480 Mbps)
+                    Warranty: 3 years">
+                </label>
+                <label>
+                    <input type="radio" name="motherboard" value="x570" title="Asus X570 ROG Crosshair VIII Hero Wi-Fi">
+                    <img src="img/mb/x570.png" height="250" width="250" title="Asus X570 ROG Crosshair VIII Hero Wi-Fi :
+                    Socket: AM4
+                    Chipset: AMD X570
+                    Form Factor: ATX
+                    Voltage Regulator: 12+2 phases
+                    PCIe x16: (3) v3.0
+                    USB Ports: USB 3.2 Gen 2 (10 Gbps): 7x Type-A, 
+                    1x Type-C USB 3.2 Gen 1 (5 Gbps): 4x Type-A
+                    Warranty: 3 years">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- RAM -->
+            <fieldset  style="background-color: #eae6ca">
+                <legend><h2>Select RAM:</h2></legend>
+                <label>
+                    <input type="radio" name="ram" value="ram1" title="G.Skill Trident Z5 Neo RGB DDR5-6000 (2 x 16GB)">
+                    <img src="img/ram/r1.png" height="250" width="250" title="G.Skill Trident Z5 Neo RGB DDR5-6000 (2 x 16GB) :
+                    Model: F5-6000J3038F16GX2-TZ5NR
+                    Capacity: 32GB (2 x 16GB)
+                    Data Rate: DDR5-6000 (XMP)
+                    Timings: 30-38-38-96 (2T)
+                    Voltage: 1.35V
+                    Warranty: Lifetime">
+                </label>
+                <label>
+                    <input type="radio" name="ram" value="ram2" title="Samsung DDR5-4800 (2 x 16GB)">
+                    <img src="img/ram/r2.png" height="250" width="250" title="Samsung DDR5-4800 (2 x 16GB) :
+                    Model: M323R2GA3BB0-CQKOD
+                    Capacity: 32GB (2 x 16GB)
+                    Data Rate: DDR5-4800
+                    Timings: 40-39-39-76 (2T)
+                    Voltage: 1.10V
+                    Warranty: Lifetime">
+                </label>
+                <label>
+                    <input type="radio" name="ram" value="ram3" title="Corsair Vengeance LED 16GB Kit (2 x 8GB)">
+                    <img src="img/ram/r3.png" height="250" width="250" title="Corsair Vengeance LED 16GB Kit (2 x 8GB) :
+                    Model: CMK16GX4M2A2666C16
+                    Capacity: 16GB (2 x 8GB)
+                    Data Rate: DDR4-2666
+                    Timings: C16-18-18-36
+                    Voltage: 1.20V
+                    Warranty: Lifetime">
+                </label>
+                <label>
+                    <input type="radio" name="ram" value="ram4" title="Kingston HyperX Fury (2 x 16GB)">
+                    <img src="img/ram/r4.png" height="250" width="250" title="Kingston HyperX Fury (2 x 16GB) :
+                    Type: DDR4
+                    Capacity: 16GB Kit (2 x 8GB)
+                    Speed: 3466MHz">
+                </label>
+                <label>
+                    <input type="radio" name="ram" value="ram5" title="Adata Spectrix D80 (2 x 16GB)">
+                    <img src="img/ram/r5.png" height="250" width="250" title="Adata Spectrix D80 (2 x 16GB) :
+                    Type: DDR4
+                    Capacity: 16GB (2x8GB), 32 (2x16GB)
+                    Speed: up to 4,133MHz">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Storage (SSD) -->
+            <fieldset style="background-color: #cae5ea">
+                <legend><h2>Select SSD:</h2></legend>
+                <label>
+                    <input type="radio" name="ssd" value="ssd1" title="AWD Black SN850X 2TB">
+                    <img src="img/ssd/s1.png" height="250" width="250" title="WD Black SN850X 2TB:
+                    Capacities: up to 4TB
+                    Interface: AIC PCIe 4.0 x4
+                    Read/write speed: 7300 / 6300 MB/s
+                    Random read/write speed: 1M / 720K 
+                    IOPSDRAM cache: 1GB DDR4
+                    SLC cache: 300GB dynamic
+                    Write endurance: 600TB
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="ssd" value="ssd2" title="Samsung 990 Pro 2TB">
+                    <img src="img/ssd/s2.png" height="250" width="250" title="Samsung 990 Pro 2TB :
+                    Capacities: up to 2TB
+                    Interface: PCIe Gen 4.0 x4
+                    Read/write speed: 7,462 / 6,877 MB/s
+                    Random read / write speeds: 1.2M IOPS / 1.5M IOPS
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="ssd" value="ssd3" title="Kingston Fury Renegade 2TB">
+                    <img src="img/ssd/s3.png" height="250" width="250" title="Kingston Fury Renegade 2TB:
+                    Capacities: up to 4TB
+                    Interface: PCIe 4.0 NVMe
+                    Read/write speed: 7,300 / 7,000 MB/s
+                    Random read/write speed: 1,000,000 / 1,000,000 IOPS
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="ssd" value="ssd4" title="Seagate FireCuda 53 2TB">
+                    <img src="img/ssd/s4.png" height="250" width="250" title="Seagate FireCuda 530 2TB :
+                    Capacities: up to 4TB
+                    Interface: AIC PCIe 4.0 x4
+                    Read/write speed: 7,300 / 6,900 MB/s
+                    Random read/write speed: 1M / 1M IOPS
+                    DRAM cache: 2GB DDR4
+                    SLC cache: up to 450GB (model dependent)
+                    Write endurance: 2550TB
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="ssd" value="ssd5" title="Crucial P5 Plus 2TB">
+                    <img src="img/ssd/s5.png" height="250" width="250" title="Crucial P5 Plus 2TB :
+                    Capacities: up to 2TB
+                    Interface: PCIe Gen4 x4 NVMe 1.4
+                    Read/write speed: 6,600 / 5,000 MB/s
+                    Random read/write speed: 630,000 / 700,000 IOPS
+                    Write endurance: 600TB
+                    Warranty: 5 years">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Storage (HDD) -->
+            <fieldset style="background-color: #eae6ca">
+                <legend><h2>Select HDD:</h2></legend>
+                <label>
+                    <input type="radio" name="hdd" value="hdd1" title="Seagate BarraCuda 2TB">
+                    <img src="img/hdd/h1.png" height="250" width="250" title="Seagate BarraCuda 2TB :
+                    Storage Capacity: 1TB to 8TB
+                    Speed: 7200 RPM                
+                    Cache: 256MB                
+                    Warranty: 2 Years">
+                </label>
+                <label>
+                    <input type="radio" name="hdd" value="hdd2" title="WD Black 2TB">
+                    <img src="img/hdd/h2.png" height="250" width="250" title="WD Black 2TB :
+                    Storage Capacity: 250GB to 8TB
+                    Speed: 7200 RPM                
+                    Cache: 32MB                
+                    Warranty: 5 Years">
+                </label>
+                <label>
+                    <input type="radio" name="hdd" value="hdd3" title="Toshiba P300 2TB">
+                    <img src="img/hdd/h3.png" height="250" width="250" title="Toshiba P300 2TB :
+                    Storage Capacity: 500GB to 3TB
+                    Speed: 7200 RPM                
+                    Cache: 64MB                
+                    Warranty: 2 Years">
+                </label>
+                <label>
+                    <input type="radio" name="hdd" value="hdd4" title="WD Blue 1TB">
+                    <img src="img/hdd/h4.png" height="250" width="250" title="WD Blue 1TB :
+                    Storage: 500GB to 2TB               
+                    Cache: 32MB                
+                    Speed: 7200RPM">
+                </label>
+                <label>
+                    <input type="radio" name="hdd" value="hdd5" title="Seagate IronWolf Pro 20TB HDD">
+                    <img src="img/hdd/h5.png" height="250" width="250" title="Seagate IronWolf Pro 20TB HDD :
+                    Capacities (CMR): 2TB, 4TB, 6TB, 8TB, 10TB, 
+                    12TB, 14TB, 16TB, 18TB, 20TB, 22TB
+                    RPM: 7200
+                    Cache: 256MB
+                    Form Factor/Interface: 3.5-inch / SATA
+                    Workload Rate (WRL): 300 TB/yr
+                    Warranty: 5 Years">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Power Supply (PSU) -->
+            <fieldset style="background-color: #cae5ea">
+                <legend><h2>Select Power Supply:</h2></legend>
+                <label>
+                    <input type="radio" name="psu" value="psu1" title="Corsair RM750x (2021)">
+                    <img src="img/psu/psu1.png" height="250" width="250" title="Corsair RM750x (2021) :
+                    Manufacturer (OEM): CWT
+                    Max.DC output: 750W
+                    Efficiency: 80 PLUS Gold
+                    Form factor: ATX12V v2.4, EPS 2.92
+                    Noise: Cybenetics A- (25-30dBA)
+                    Cooling: 140mm Mag Lev fan (NR140ML)
+                    Modularity: Fully modular
+                    EPS connectors: 2PCIe connectors: 4 (on two cables)
+                    Warranty: 10 years">
+                </label>
+                <label>
+                    <input type="radio" name="psu" value="psu2" title="Seasonic Prime Titanium TX-1000">
+                    <img src="img/psu/psu2.png" height="250" width="250" title="Seasonic Prime Titanium TX-1000 :
+                    Manufacturer (OEM): Seasonic
+                    Max.DC output: 1000W
+                    Efficiency: 80 PLUS Titanium
+                    Form factor: ATX12V v2.4, EPS 2.92
+                    Noise: Cybenetics A- (25-30dBA)
+                    Cooling: 135 mm FDB Fan (HA13525M12F-Z)
+                    Modularity: Fully modular
+                    EPS connectors: 2PCIe connectors: 6 (all on dedicated cables)
+                    Warranty: 12 years">
+                </label>
+                <label>
+                    <input type="radio" name="psu" value="psu3" title="XPG Pylon 450">
+                    <img src="img/psu/psu3.png" height="250" width="250" title="XPG Pylon 450 :
+                    Manufacturer (OEM): CWT
+                    Max.DC output: 450W
+                    Efficiency: 80 PLUS Bronze
+                    Form factor: ATX12V v2.4, EPS 2.92
+                    Noise: Cybenetics A- rating (25-30dB[A])
+                    Cooling: 120mm Fluid Dynamic Bearing Fan (HA1225M12F-Z)
+                    Modularity: No
+                    EPS connectors: 1
+                    PCIe connectors: 1
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="psu" value="psu4" title="BeQuiet! Pure Power 11 FM 550W">
+                    <img src="img/psu/psu4.png" height="250" width="250" title="BeQuiet! Pure Power 11 FM 550W :
+                    Manufacturer (OEM): CWT
+                    Max.DC output: 550W
+                    Efficiency: 80 PLUS Gold
+                    Form factor: ATX12V v2.4, EPS 2.92
+                    Noise: Cybenetics A (20-25dBA)
+                    Cooling: 120mm Rifle Bearing Fan (BQ QF2-12025-MS)
+                    Modularity: Fully modular
+                    EPS connectors: 1
+                    PCIe connectors: 4 (on two cables)
+                    Warranty: 5 years">
+                </label>
+                <label>
+                    <input type="radio" name="psu" value="psu5" title="SilverStone SX1000 Platinum">
+                    <img src="img/psu/psu5.png" height="250" width="250" title="SilverStone SX1000 Platinum :
+                    Manufacturer (OEM): Enhance Electronics
+                    Max. DC output: 1000W
+                    Efficiency: 80 PLUS Platinum
+                    Form factor: SFX-L
+                    Noise: Cybenetics Standard+ (35-40dBA)
+                    Cooling: 120mm Double Ball Bearing Fan
+                    Modularity: Fully modular
+                    EPS connectors: 2
+                    PCIe connectors: 6
+                    Warranty: 5 years">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- PC Case -->
+            <fieldset style="background-color: #eae6ca">
+                <legend><h2>Select PC Case:</h2></legend>
+                <label>
+                    <input type="radio" name="pcCase" value="case1" title="JONSBO MOD5">
+                    <img src="img/case/case1.png" height="250" width="250" title="JONSBO MOD5 :
+                    JONSBO MechWarrior MOD-5 Gaming Computer Case 
+                    Support ATX Motherboard 
+                    360mm Liquid Cooler 
+                    Front Panel with 5V ARGB Lighting 
+                    USB 3.0 * 2 (White)">
+                </label>
+                <label>
+                    <input type="radio" name="pcCase" value="case2" title="DeepCool Quadstellar Infinity">
+                    <img src="img/case/case2.png" height="250" width="250" title="DeepCool Quadstellar Infinity :
+                    Mid- Tower Alloy Steel 
+                    Computer Case/Gaming Cabinet - Black 
+                    Support Mini-ITX/Micro-ATX/ATX/E-ATX - R-QUADSTELLAR-G-1">
+                </label>
+                <label>
+                    <input type="radio" name="pcCase" value="case3" title="Corsair Obsidian 1000D">
+                    <img src="img/case/case3.png" height="250" width="250" title="Corsair Obsidian 1000D :
+                    Form Factor: Super-tower
+                    Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX
+                    Dimensions: 27.4 x 12.1 x 27.3-inches (697 x 307 x 693mm)
+                    Weight: 65lb (29.5kg)
+                    Radiator Support: 120mm; 140mm; 240mm; 280mm; 360mm; 420mm; 480mm
+                    I/O Ports: 1x Audio/Mic, 4x USB 3.0, 2x USB 3.1 Type-C
+                    Drive Bays: 6x 2.5-inch, 5x 3.5-inch">
+                </label>
+                <label>
+                    <input type="radio" name="pcCase" value="case4" title="NZXT H710i">
+                    <img src="img/case/case4.png" height="250" width="250" title="NZXT H710i :
+                    ATX Mid Tower PC Gaming Case - Black 
+                    Front I/O USB Type-C Port 
+                    Quick-Release Tempered Glass Side Panel 
+                    Vertical GPU Mount 
+                    Integrated RGB Lighting
+                    Water-Cooling Ready">
+                </label>
+                <label>
+                    <input type="radio" name="pcCase" value="case5" title="Cooler Master Silencio S600">
+                    <img src="img/case/case5.png" height="250" width="250" title="Cooler Master Silencio S600 :
+                    Form Factor: Mid-tower
+                    Motherboard Support: ATX, Micro-ATX, Mini-ITX
+                    Dimensions: 18.8 x 8.2 x 18.5-inches (478 x 209 x 471mm)
+                    Weight: 21.4lb (9.7kg)
+                    Radiator Support: 120mm, 240mm, 280mm, 360mm
+                    I/O Ports: 2x USB 3.2 Gen 1, 1x 3.5mm 
+                    Headset Jack (Audio+Mic), 1x SD card reader
+                    Drive Bays: 1x 5.25-inch, 5x 2.5-inch, 4x 3.5-inch">
+                </label>
+            </fieldset>
+            <br>
+            <br>
+            <!-- Additional Specifications -->
+            <h3><label for="additionalSpecs">Additional Specifications:</label></h3>
+            <textarea id="additionalSpecs" name="additionalSpecs" rows="4" cols="50"
+                placeholder="Enter additional specifications here..."></textarea>
+            <br>
+            <br>
+                <button type="button" onclick="generateBill()">Generate Bill</button>
+            </form>
+        </p3>
+    </section>
+
+    <!-- Bill Result Section -->
+    <section id="billResult">
+        <h2>Bill Result</h2>
+        <p4 id="billDetails">Selected products and prices will be displayed here.</p4><br><br><br><br>      
+        <script>
+            function generateBill() {
+                var processor = document.querySelector('input[name="processor"]:checked');
+                var graphicsCard = document.querySelector('input[name="graphicsCard"]:checked');
+                var motherboard = document.querySelector('input[name="motherboard"]:checked');
+                var ram = document.querySelector('input[name="ram"]:checked');
+                var ssd = document.querySelector('input[name="ssd"]:checked');
+                var hdd = document.querySelector('input[name="hdd"]:checked');
+                var psu = document.querySelector('input[name="psu"]:checked');
+                var pcCase = document.querySelector('input[name="pcCase"]:checked');
+                var additionalSpecs = document.getElementById("additionalSpecs").value;
+        
+                var missingComponent = "";
+        
+                if (!processor) missingComponent = "Processor";
+                else if (!graphicsCard) missingComponent = "Graphics Card";
+                else if (!motherboard) missingComponent = "Motherboard";
+                else if (!ram) missingComponent = "RAM";
+                else if (!ssd) missingComponent = "SSD";
+                else if (!hdd) missingComponent = "HDD";
+                else if (!psu) missingComponent = "Power Supply (PSU)";
+                else if (!pcCase) missingComponent = "PC Case";
+        
+                if (missingComponent !== "") {
+                    alert(`Please select a ${missingComponent} option!`);
+                    return;
+                }
+        
+                var rates = {
+                    'ryzen3600': 11000, 'i510400': 12000, 'ryzen5900x': 32000, 'i910900k': 34000,'ryzen7900x': 44500,
+                    'rtx4090': 200000, 'rtx4070ti': 88000, '7600xt': 30000, '7800xt':50000,'6600xt':25000,
+                    'z790': 32000, 'b760': 25000, 'b550': 24000, 'b660': 20000,'x570':75000 ,
+                    'ram1': 13000, 'ram2': 10000, 'ram3': 9000, 'ram4': 12000,"ram5":11000,
+                    'ssd1': 20000, 'ssd2': 21000, 'ssd3': 25000, 'ssd4': 22000,'ssd5': 18000,
+                    'hdd1': 7000, 'hdd2': 14000, 'hdd3': 11000, 'hdd4': 5000,'hdd5':48000,
+                    'psu1': 10000, 'psu2': 68000, 'psu3': 5000, 'psu4': 50000,'psu5':32000,
+                    'case1': 38000, 'case2': 33000, 'case3': 45000, 'case4': 17000,'case5': 8000
+                };
+        
+                // Calculate the total cost
+                var totalCost = rates[processor.value] + rates[graphicsCard.value] + rates[motherboard.value] +
+                                rates[ram.value] + rates[ssd.value] + rates[hdd.value] + rates[psu.value] +
+                                rates[pcCase.value];
+        
+                // Display the result
+                var resultDiv = document.getElementById("billResult");
+                resultDiv.innerHTML = `
+                    <h2>Your Custom PC Configuration</h2>
+                    <h3><strong>Processor:</strong> ${processor.title} : ₹${rates[processor.value]}</h3>
+                    <h3><strong>Graphics Card:</strong> ${graphicsCard.title} : ₹${rates[graphicsCard.value]}</h3>
+                    <h3><strong>Motherboard:</strong> ${motherboard.title} : ₹${rates[motherboard.value]}</h3>
+                    <h3><strong>RAM:</strong> ${ram.title} : ₹${rates[ram.value]}</h3>
+                    <h3><strong>SSD:</strong> ${ssd.title} : ₹${rates[ssd.value]}</h3>
+                    <h3><strong>HDD:</strong> ${hdd.title} : ₹${rates[hdd.value]}</h3>
+                    <h3><strong>Power Supply (PSU):</strong> ₹${psu.title} : ${rates[psu.value]}</h3>
+                    <h3><strong>PC Case:</strong> ${pcCase.title} : ₹${rates[pcCase.value]}</h3>
+                    <h3><strong>Additional Specifications:</strong> ₹${additionalSpecs}</h3>
+                    <h3>Total Cost: ₹${totalCost}</h3>
+                    <h3><a href="html2.html">Contact Us</a></h3>
+                `;
+            }
+        </script>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p style="font-size: 15px;">&copy; 2024 We(U)BuildIt. All rights reserved.</p>
+    </footer>
+</body>
+</html>

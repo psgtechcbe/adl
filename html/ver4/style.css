@@ -1,0 +1,128 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main Content Styles */
+
+#bodydesign{
+    width: 100%;
+    height: 100vh;
+}
+p:before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+    }
+p2:before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+    }    
+p3:before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+    }  
+p{
+    font-size: 80px;
+    font-family: 'Concert One', cursive;
+    color: #ffffff;
+    text-shadow: 0 0 10px #3fc8e7,
+                0 0 20px #6dffe7,
+                0 0 30px #6edcf0,
+                0 0 40px #ff006a,
+                0 0 70px #ff006a,
+                0 0 80px #ff00de,
+                0 0 100px #ff00de,
+                0 0 150px #ff00de;
+}
+p2{
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+    color: #fff;
+    text-shadow: 0 0 10px #3f66e7,
+                0 0 20px #2a8def,
+                0 0 30px #4bcfe7,
+                0 0 40px #f36e6e,
+                0 0 70px #f978ae,
+                0 0 80px #ea9086,
+                0 0 100px #f6beb2,
+                0 0 150px #e8a8a8;
+}
+
+/* Product Section Styles */
+#productSection {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h2, p3 {
+    font-size: 24px;
+    font-family: 'Concert One', cursive;
+    color: #333;
+}
+
+label, select, input {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Bill Result Section Styles */
+#billResult {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h2, p4 {
+    font-size: 24px;
+    font-family: 'Concert One', cursive;
+    color: #333;
+}
+
+#billDetails {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.25px;
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
